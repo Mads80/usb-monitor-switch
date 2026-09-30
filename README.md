@@ -1,6 +1,6 @@
 # usb-monitor-switch
 
-![logo](./assets/logo.png)
+![usb-monitor-switch-logo](./assets/usb-monitor-switch-logo.png)
 
 Turn a basic USB sharing switch into a lightweight KVM-style setup.
 
