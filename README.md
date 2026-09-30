@@ -4,9 +4,7 @@ Turn a basic USB sharing switch into a lightweight KVM-style setup.
 
 `usb-monitor-switch` automatically changes your monitor input when your USB devices are switched between two Windows computers.
 
-<p align="left">
-  <img src="./assets/ugreen-us216.png" alt="UGREEN USB Sharing Switch US216" width="400">
-</p>
+![UGREEN USB Sharing Switch US216](./assets/ugreen-us216.png)
 
 It uses:
 
@@ -90,7 +88,7 @@ The result is similar to a traditional KVM switch, even though the USB switch it
 - A monitor with DDC/CI support
 - Two computers connected to different monitor inputs
 - A USB sharing switch or similar device
-- A USB device or hub that appears/disappears when switching computers
+- A USB device or hub that appears or disappears when switching computers
 
 ## Tested hardware
 
