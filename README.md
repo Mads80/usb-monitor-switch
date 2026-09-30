@@ -354,3 +354,6 @@ Each computer reacts when the shared USB hub becomes connected to it.
 The project does not require additional monitor-control executables.
 
 All monitor control is performed using native Windows APIs, and the complete PowerShell implementation can be reviewed directly.
+
+## License
+Use, modify, and distribute as you see fit.
