@@ -49,9 +49,9 @@ A typical setup looks like this:
 
 ```text
                     ┌───────────────┐
-PC 1 ─── HDMI ─────>│               │
+PC 1 ─── HDMI ────> │               │
                     │    Monitor    │
-PC 2 ─── DP ───────>│               │
+PC 2 ─── DP ──────> │               │
                     └───────────────┘
 
 PC 1 ──────────┐
