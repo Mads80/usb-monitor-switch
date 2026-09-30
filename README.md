@@ -1,8 +1,5 @@
 # usb-monitor-switch
 
-> [!IMPORTANT]
-> This project was developed with assistance from AI. Review and test the code before using it in your own environment, as hardware and DDC/CI behavior may vary.
-
 Turn a basic USB sharing switch into a lightweight KVM-style setup.
 
 `usb-monitor-switch` automatically changes your monitor input when your USB devices are switched between two Windows computers.
@@ -18,6 +15,9 @@ It uses:
 
 > [!NOTE]
 > No third-party monitor-control software is required.
+
+> [!IMPORTANT]
+> This project was developed with assistance from AI. Review and test the code before using it in your own environment, as hardware and DDC/CI behavior may vary.
 
 ## Table of contents
 
