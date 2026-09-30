@@ -32,6 +32,7 @@ It uses:
 - [Troubleshooting](#troubleshooting)
 - [Limitations](#limitations)
 - [Security](#security)
+- [License](#license)
 
 ## Features
 
