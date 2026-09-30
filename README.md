@@ -13,7 +13,8 @@ It uses:
 - DDC/CI monitor control
 - The built-in Windows `Dxva2.dll` API
 
-No third-party monitor-control software is required.
+> [!NOTE]
+> No third-party monitor-control software is required.
 
 ## Table of contents
 
