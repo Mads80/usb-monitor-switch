@@ -1,5 +1,7 @@
 # usb-monitor-switch
 
+![logo](./assets/logo.png)
+
 Turn a basic USB sharing switch into a lightweight KVM-style setup.
 
 `usb-monitor-switch` automatically changes your monitor input when your USB devices are switched between two Windows computers.
