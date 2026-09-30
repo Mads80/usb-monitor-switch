@@ -4,6 +4,10 @@ Turn a basic USB sharing switch into a lightweight KVM-style setup.
 
 `usb-monitor-switch` automatically changes your monitor input when your USB devices are switched between two Windows computers.
 
+<p align="center">
+  <img src="./assets/ugreen-us216.png" alt="UGREEN USB Sharing Switch US216" width="650">
+</p>
+
 It uses:
 
 - PowerShell
@@ -12,6 +16,23 @@ It uses:
 - The built-in Windows `Dxva2.dll` API
 
 No third-party monitor-control software is required.
+
+## Table of contents
+
+- [Features](#features)
+- [How it works](#how-it-works)
+- [Requirements](#requirements)
+- [Tested hardware](#tested-hardware)
+- [Project files](#project-files)
+- [Installation](#installation)
+- [Configure monitor inputs](#configure-monitor-inputs)
+- [Find the USB trigger device](#find-the-usb-trigger-device)
+- [Test manually](#test-manually)
+- [Start automatically at logon](#start-automatically-at-logon)
+- [DDC/CI](#ddcci)
+- [Troubleshooting](#troubleshooting)
+- [Limitations](#limitations)
+- [Security](#security)
 
 ## Features
 
@@ -29,9 +50,9 @@ A typical setup looks like this:
 
 ```text
                     ┌───────────────┐
-PC 1 ─── HDMI ────> │               │
+PC 1 ─── HDMI ─────▶│               │
                     │    Monitor    │
-PC 2 ─── DP  ─────> │               │
+PC 2 ─── DP ───────▶│               │
                     └───────────────┘
 
 PC 1 ──────────┐
@@ -334,7 +355,3 @@ Each computer reacts when the shared USB hub becomes connected to it.
 The project does not require additional monitor-control executables.
 
 All monitor control is performed using native Windows APIs, and the complete PowerShell implementation can be reviewed directly.
-
-## License
-
-Consider adding an MIT license if you intend to publish or distribute the project publicly.
